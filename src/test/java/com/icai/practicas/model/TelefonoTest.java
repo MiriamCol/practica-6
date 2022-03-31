@@ -14,7 +14,7 @@ class TelefonoTest {
     @Test
     void returnTrue() {
 
-        telefono= new Telefono("915436147");
+        telefono= new Telefono("915436147"); //teléfono correcto
         Boolean expectedResult= true;
         Boolean result = telefono.validar();
 
@@ -24,7 +24,7 @@ class TelefonoTest {
     @Test
     void returnFalse() {
 
-        telefono= new Telefono("9a5436147");
+        telefono= new Telefono("9a5436147"); //letra no correcta
         Boolean expectedResult= false;
         Boolean result = telefono.validar();
 
