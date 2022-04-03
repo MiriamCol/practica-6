@@ -1,5 +1,6 @@
-package com.icai.practicas.model;
+package com.icai.practicas;
 
+import com.icai.practicas.model.DNI;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
